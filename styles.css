@@ -1,0 +1,173 @@
+// JOANA sayz:
+  table caption {
+      text-align: center !important;
+      /* Não estava a conseguir alterar deste lado sem colocar !important */
+      
+      color: @cinza-escuro;
+      background: @cinza-claro;
+      padding: 16px;
+      margin-bottom: 12px;
+  }
+  
+  table tr {
+      border-bottom: solid 1px @cinza-claro;
+  }
+  
+  table tr th {
+      border-bottom: solid 4px #91a1dc;
+      text-transform: uppercase;
+  }
+  
+  .upw-posts .more-link {
+      white-space: nowrap;
+      margin-top: 6px;
+      display: block;
+  }
+  
+  .wpdm-link-tpl {
+      margin: @1/2 0;
+      border-bottom: 1px solid @cinza-claro;
+      padding-bottom: @1;
+  }
+  
+  .uk-dropdown.uk-dropdown-navbar.uk-dropdown-width-1.uk-dropdown-bottom:before {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid @tema;
+      content: "";
+      top: -10px;
+      position: absolute;
+      left: 20px;
+  }
+  
+  ul.uk-navbar-nav .uk-dropdown-navbar {
+      background: @tema;
+  }
+  
+  ul.uk-navbar-nav .uk-dropdown > .uk-grid .uk-nav a {
+      color: @branco;
+  }
+  
+  .uk-navbar > ul.uk-navbar-nav > li .uk-dropdown-navbar {
+      background: @tema;
+      padding: @1/2 @1;
+  }
+  
+  .uk-navbar > ul.uk-navbar-nav > li .uk-dropdown-navbar li a:hover {
+      background: none;
+      opacity: 0.7;
+  }
+  
+  html body .wpdm-link-tpl {
+      margin: 26px 0;
+  }
+  
+  .uk-grid-divider>[class*='uk-width-medium-']:not(.uk-width-medium-1-1):nth-child(n+2) {
+      border-left: none !important;
+  }
+  
+  .tm-sidebar-b .upw-posts.hfeed article h4.entry-title {
+      font-size: 16px;
+      line-height: 22px;
+  }
+  
+  .tm-sidebar-b .upw-posts.hfeed article h4.entry-title a {
+      color: #666;
+  }
+  
+  .tm-sidebar-b .upw-posts.hfeed article .entry-meta,
+  .tm-sidebar-b .upw-posts.hfeed article .entry-summary {
+      display: none;
+  }
+  
+  html body main.tm-content .uk-breadcrumb li.uk-active span {
+      display: inline;
+  }
+  
+  html body #tm-middle .tm-main h1,
+  html body .uk-h1 {
+      font-size: 24px;
+      line-height: 30px;
+  }
+  
+  #tm-content .uk-article-title a:hover,
+  #tm-content .uk-article-title a:hover:after {
+      text-decoration: none;
+      opacity: .8;
+  }
+  
+  #tm-content .uk-article {
+      border-bottom: solid 1px #eee;
+      padding-bottom: 8px;
+  }
+  
+  #tm-content .uk-article>:last-child {
+      margin-bottom: 14px;
+  }
+  
+  #tm-content ul.uk-subnav.uk-subnav-line li a {
+      color: white;
+      background: #5f7bd3;
+      padding: 6px 10px;
+  }
+  
+  #tm-content .pt-cv-view .pt-cv-ifield {
+      overflow: hidden;
+  }
+  
+  #tm-content .col-md-4.col-sm-12.col-xs-12.pt-cv-content-item.pt-cv-1-col:hover {
+      opacity: .8;
+  }
+  
+  #tm-content .col-md-4.col-sm-12.col-xs-12.pt-cv-content-item.pt-cv-1-col:hover a._self.pt-cv-href-thumbnail.pt-cv-thumb-default img {
+      -ms-transform: scale(1.02);
+      -webkit-transform: scale(1.02);
+      -moz-transform: scale(1.02);
+      -o-transform: scale(1.02);
+      transform: scale(1.02);
+  }
+  
+  html body #tm-content .pt-cv-wrapper img {
+      -ms-transition: all .2s ease-in-out;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+  }
+  
+  html body nav.uk-navbar > ul.uk-navbar-nav > li .uk-dropdown-navbar li {
+      padding: 6px 0;
+  }
+  
+  html body nav.uk-navbar > ul.uk-navbar-nav > li a {
+      background: none;
+  }
+  
+  .uk-breadcrumb>li,
+  .uk-breadcrumb>li>a,
+  .uk-breadcrumb>li>span {
+      display: inline;
+  }
+  
+  #tm-content .uk-grid article.uk-article h1.uk-article-title {
+      font-size: 26px;
+      line-height: 30px;
+  }
+  
+  html body main#tm-content .pt-cv-wrapper img {
+      transition: all .2s ease-in-out;
+  }
+  
+  @media screen and (max-width: 767px) {
+      .uk-panel.uk-panel-box.uk-panel-box-secondary.widget_ultimate_posts {
+          padding: 0px;
+      }
+  }
+  
+  #tm-footer ul.uk-subnav.uk-subnav-line.uk-flex-center {
+      margin-left: 0;
+  }
+  
+  // fim JOANA
