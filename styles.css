@@ -3,14 +3,14 @@
       text-align: center !important;
       /* Não estava a conseguir alterar deste lado sem colocar !important */
       
-      color: @cinza-escuro;
-      background: @cinza-claro;
+      color: #999;
+      background: #f5f5f5;
       padding: 16px;
       margin-bottom: 12px;
   }
   
   table tr {
-      border-bottom: solid 1px @cinza-claro;
+      border-bottom: solid 1px ;
   }
   
   table tr th {
@@ -25,9 +25,9 @@
   }
   
   .wpdm-link-tpl {
-      margin: @1/2 0;
-      border-bottom: 1px solid @cinza-claro;
-      padding-bottom: @1;
+      margin: 8px 0;
+      border-bottom: 1px solid #f5f5f5;
+      padding-bottom: 16px;
   }
   
   .uk-dropdown.uk-dropdown-navbar.uk-dropdown-width-1.uk-dropdown-bottom:before {
@@ -35,7 +35,7 @@
       height: 0;
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-      border-bottom: 10px solid @tema;
+      border-bottom: 10px solid #5f7bd3;
       content: "";
       top: -10px;
       position: absolute;
@@ -43,16 +43,16 @@
   }
   
   ul.uk-navbar-nav .uk-dropdown-navbar {
-      background: @tema;
+      background: #5f7bd3;
   }
   
   ul.uk-navbar-nav .uk-dropdown > .uk-grid .uk-nav a {
-      color: @branco;
+      color: #fff;
   }
   
   .uk-navbar > ul.uk-navbar-nav > li .uk-dropdown-navbar {
-      background: @tema;
-      padding: @1/2 @1;
+      background: #5f7bd3;
+      padding: 8px 16px;
   }
   
   .uk-navbar > ul.uk-navbar-nav > li .uk-dropdown-navbar li a:hover {
