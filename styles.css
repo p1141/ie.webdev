@@ -169,5 +169,7 @@
   #tm-footer ul.uk-subnav.uk-subnav-line.uk-flex-center {
       margin-left: 0;
   }
-  
+  .uk-button-primary:hover, .uk-button-primary:focus {
+      background-color: #5f7bd3;
+  }
   // fim JOANA
