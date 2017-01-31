@@ -170,6 +170,6 @@
       margin-left: 0;
   }
   .uk-button-primary:hover, .uk-button-primary:focus {
-      background-color: #5f7bd3;
+      background-color: #5f7bd3 !important;
   }
   // fim JOANA
