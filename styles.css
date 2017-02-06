@@ -175,4 +175,9 @@
   .uk-breadcrumb>li, .uk-breadcrumb>li>a, .uk-breadcrumb>li>span {
       display: inline!important;
   }
+  a.wpdm-download-link.wpdm-download-locked {
+      margin-top: 8px;
+      display: block;
+  }
+
   // fim JOANA
