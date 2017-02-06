@@ -172,4 +172,7 @@
   .uk-button-primary:focus {
       background-color: #5f7bd3 !important;
   }
+  .uk-breadcrumb>li, .uk-breadcrumb>li>a, .uk-breadcrumb>li>span {
+      display: inline;
+  }
   // fim JOANA
