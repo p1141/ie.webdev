@@ -181,4 +181,7 @@ html body.page-child.parent-pageid-1161 #tm-middle article.uk-article h4:after {
 	background-color: #5f7bd3;
 	margin-top: 6px;
 }
+html body.page-child.parent-pageid-1161 #tm-middle article.uk-article table.uk-table.uk-table-striped tr td:nth-of-type(2) {
+	white-space: nowrap;
+}
 // fim JOANA
