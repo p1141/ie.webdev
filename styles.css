@@ -82,7 +82,9 @@ html body .wpdm-link-tpl {
 	display: none;
 }
 
-html body main.tm-content .uk-breadcrumb > li{
+html body main.tm-content .uk-breadcrumb > li,
+html body main.tm-content .uk-breadcrumb > li > a,
+html body main.tm-content .uk-breadcrumb >li > span {
 	display: inline;
 }
 
@@ -143,12 +145,6 @@ html body nav.uk-navbar > ul.uk-navbar-nav > li .uk-dropdown-navbar li {
 
 html body nav.uk-navbar > ul.uk-navbar-nav > li a {
 	background: none;
-}
-
-.uk-breadcrumb>li,
-.uk-breadcrumb>li>a,
-.uk-breadcrumb>li>span {
-	display: inline;
 }
 
 #tm-content .uk-grid article.uk-article h1.uk-article-title {
