@@ -85,7 +85,7 @@ html body .wpdm-link-tpl {
 html body main.tm-content .uk-breadcrumb > li,
 html body main.tm-content .uk-breadcrumb > li > a,
 html body main.tm-content .uk-breadcrumb >li > span {
-	display: inline;
+	display: inline !important;
 }
 
 html body #tm-middle .tm-main h1,
